@@ -1,7 +1,70 @@
+# -------------------------------
+# Python Bytecode & Cache
+# -------------------------------
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
+
+# -------------------------------
+# Jupyter Notebook Checkpoints
+# -------------------------------
 .ipynb_checkpoints/
-*.pt
+
+# -------------------------------
+# Virtual Environments
+# -------------------------------
 .env
 .venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# -------------------------------
+# PyTorch Model Files
+# -------------------------------
+*.pt
+
+# -------------------------------
+# System / IDE Specific
+# -------------------------------
+*.log
+.DS_Store
+*.swp
+*.bak
+*.tmp
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+.spyderproject
+.spyproject
+
+# -------------------------------
+# Test & Coverage
+# -------------------------------
+.pytest_cache/
+.mypy_cache/
+coverage.*
+.cache
+.tox/
+
+# -------------------------------
+# Build Artifacts
+# -------------------------------
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+
+# -------------------------------
+# Type Checking & Linters
+# -------------------------------
+.ruff_cache/
+.pytype/
+.pyre/
+.dmypy.json
