@@ -12,7 +12,7 @@ A deep learning-based binary classification project to predict water quality usi
 
 ```
 DL-WaterQuality-Classifier/
-├── DL_WaterQuality.ipynb  							 # Main training/testing notebook
+├── DL_WaterQuality.ipynb  						  # Main training/testing notebook
 ├── water_quality.csv                             # Dataset file
 ├── requirements.txt                              # Python dependencies
 ├── README.md                                     # Project overview
